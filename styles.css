@@ -1,0 +1,37 @@
+/*for body tag*/
+body {
+    height: 100px;
+}
+
+h2 {
+    text-align: center;
+    color: #F7A04D;
+    text-decoration: underline;
+}
+
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+table {
+    background-color: #F7A04D;
+    border: 2px solid black;
+}
+
+td {
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+
+    font-size: 25px;
+    text-align: center;
+}
+
+button {
+    text-align: center;
+
+}
