@@ -1,15 +1,16 @@
-/*for body tag*/
-body {
+body
+{
     height: 100px;
 }
 
-h2 {
+h2
+{
     text-align: center;
-    color: #F7A04D;
     text-decoration: underline;
 }
 
-.div {
+.div
+{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,13 +18,16 @@ h2 {
     gap: 1.5rem;
 }
 
-table {
+table
+{
     background-color: #F7A04D;
     border: 2px solid black;
 }
 
-td {
+td
+{
     border: 2px solid black;
+    border-radius: 2px;
     height: 50px;
     width: 50px;
 
@@ -31,7 +35,12 @@ td {
     text-align: center;
 }
 
-button {
-    text-align: center;
+.emptyCell
+{
+    border: none;
+}
 
+button
+{
+    text-align: center;
 }
